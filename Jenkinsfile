@@ -14,8 +14,8 @@ pipeline {
     environment {
         AWS_ACCESS_KEY = credentials('aws_access_key')
         AWS_SECRET_KEY = credentials('aws_secret_key')
-        ARTIFACTID = readMavenPom().getArtifactId()
-        VERSION = readMavenPom().getVersion()
+        //ARTIFACTID = readMavenPom().getArtifactId()
+        //VERSION = readMavenPom().getVersion()
     }
 
     stages {
